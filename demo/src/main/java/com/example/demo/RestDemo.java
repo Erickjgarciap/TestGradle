@@ -8,8 +8,7 @@ public class RestDemo {
 	
 	@GetMapping("/test")
 	public String test() {
-		
-		return "Hola";
-	}
 
+		return "Hola mundo desde branch test";
+	}
 }
